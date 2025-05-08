@@ -17,7 +17,7 @@ namespace reworkwk7ex3
             List<Student> students = new List<Student>();
 
             // to read the file
-            using (StreamReader reader = new StreamReader(@"D:\Students.csv"))
+            using (StreamReader reader = new StreamReader(fileName))
             {
                 string line;
                 //read file 
